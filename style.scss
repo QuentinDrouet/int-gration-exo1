@@ -1,0 +1,88 @@
+@import "scss/reset.scss",
+        "scss/abstract/variables",
+        "scss/abstract/mixins",
+        "scss/components/buttons",
+        "scss/layouts/header";
+
+@import url(https://fonts.google.com/specimen/Poppins);
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    background-image: url("images/background-image.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .overlay {
+        height: 100%;
+        width: 100%;
+        background-color: hsla(0,0%,0%,0.7);
+    
+        nav {
+            padding-top: 36px;
+            padding-left: 32px;
+            padding-right: 135px;
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+
+                li {
+                    font-size: 16px;
+                
+                    a {
+                        color: white;
+                        margin-right: 30px;  
+                        text-decoration: none;
+                    }
+                }
+            }
+            ul:nth-child(3) {
+                li {
+                    a {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .landing-page {
+        text-align: center;
+        color: white;
+        height: auto;
+        padding-top: 155px;
+
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 80px;
+            margin-top: 40px;
+            line-height: 60px;
+        }
+        p {
+            font-size: 25px;
+            font-weight: lighter;
+        }
+        a {
+            display: inline-block;
+            padding: 24px 46px;
+            background: linear-gradient(90deg,#fd3fb3, #fd3e4f);
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+}
+
+.about {
+    height: 72vh;
+    background: linear-gradient(90deg,#fd3fb3, #fd3e4f);
+}
