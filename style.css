@@ -121,4 +121,31 @@ header .landing-page a {
   background: linear-gradient(90deg, #fd3fb3, #fd3e4f);
 }
 
+.possibilities {
+  height: 111vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.possibilities .left {
+  padding-left: 130px;
+  line-height: 1.5;
+}
+.possibilities .left h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.possibilities .left h2 span {
+  color: #fd3e4f;
+}
+.possibilities .left p {
+  font-size: 20px;
+  color: #717171;
+}
+.possibilities .left p:nth-child(2) {
+  margin-bottom: 35px;
+}
+
 /*# sourceMappingURL=style.css.map */

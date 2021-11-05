@@ -86,3 +86,37 @@ header {
     height: 72vh;
     background: linear-gradient(90deg,#fd3fb3, #fd3e4f);
 }
+
+.possibilities {
+    height: 111vh;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .left {
+        padding-left: 130px;
+        line-height: 1.5;
+
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 80px;
+
+            span {
+                color: #fd3e4f;
+            }
+        }
+        p {
+            font-size: 20px;
+            color: #717171;
+
+            &:nth-child(2) {
+                margin-bottom: 35px;
+            }
+        }
+    }
+    .right {
+        
+    }
+}
